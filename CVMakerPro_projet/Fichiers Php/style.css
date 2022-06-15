@@ -1,0 +1,65 @@
+html, body, div{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Verdana, Arial;
+    font-size : 14px;
+    background-image: url("background.png");
+}
+input[type=text]{
+    border-radius:5px;
+    outline: none;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
+input[type=number]{
+    border-radius:5px;
+    outline: none;
+}
+input[type=number]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
+input[type=date]{
+    border-radius:5px;
+    outline: none;
+}
+input[type=date]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
+input[type=password]{
+    border-radius:5px;
+    outline: none;
+}
+input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
+input[type=submit]{
+    border-radius:10px;
+    outline: none;
+}
+
+textarea{
+    border-radius:5px;
+    outline: none;
+}
+textarea:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
+
+select{
+    border-radius:5px;
+    outline: none;
+}
+
+select:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 3px dodgerblue;
+}
